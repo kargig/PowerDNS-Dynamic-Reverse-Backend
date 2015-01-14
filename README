@@ -1,6 +1,9 @@
+Original dynamic reverse pipe backend for PowerDNS
+pdns-dynamic-reverse-backend.py
 
-PowerDNS pipe backend for generating reverse DNS entries and their
-forward lookup.
+Modified version to support IPv6
+pipe-local-ipv6-wrapper
+
 
 pdns.conf example:
 
@@ -15,6 +18,7 @@ The MIT License
 Copyright (c) 2009 Wijnand "maze" Modderman
 Copyright (c) 2010 Stefan "ZaphodB" Schmidt
 Copyright (c) 2011 Endre Szabo
+Copyright (c) 2012-2015 George Kargiotakis
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
